@@ -1,16 +1,14 @@
-import './globals.css';
+import './globals.css'
 
 export const metadata = {
-  title: 'מערכת העלאת מאמרים לוורדפרס',
-  description: 'מערכת להעלאת מאמרי Word לאתרי וורדפרס מרובים',
-};
+  title: 'Up2WP System',
+  description: 'Upload Articles to WordPress Sites',
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="he" dir="rtl">
-      <body className="antialiased">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
