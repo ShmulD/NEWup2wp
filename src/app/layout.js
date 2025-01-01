@@ -1,14 +1,14 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Up2WP System',
-  description: 'Upload Articles to WordPress Sites',
+  title: 'מערכת העלאת מאמרים',
+  description: 'העלאת מאמרים לאתרי וורדפרס',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="he" dir="rtl">
-      <body>{children}</body>
+      <body className="min-h-screen">{children}</body>
     </html>
   )
 }
