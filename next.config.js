@@ -5,8 +5,12 @@ const nextConfig = {
       unoptimized: true
     },
     basePath: '/NEWup2wp',
-    assetPrefix: '/NEWup2wp/',
+    assetPrefix: '/NEWup2wp',
     trailingSlash: true,
+    webpack: (config) => {
+        config.resolve.fallback = { fs: false };
+        return config;
+    },
 };
 
 module.exports = nextConfig;
