@@ -22,3 +22,11 @@
     "tailwindcss": "^3.4.1"
   }
 }
+{
+  "scripts": {
+    "build": "next build",
+    "build:github": "GITHUB_PAGES=true next build",
+    "dev": "next dev",
+    "start": "next start"
+  }
+}
